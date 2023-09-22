@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Header */
+
+.judul{
+    background-color:white;
+    text-align: center;
+    padding: 40px 30px 20px;
+}
+
+.nama{
+    color:black;
+    font-size: 60px;
+}
+
+.nav1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #FFD8D8;
+    /*padding: 50px 50px;*/
+}
+
+.nav2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(187, 187, 187, 0.25);
+    /*padding: 50px 50px;*/
+}
+
+a{
+    color:
+    #777777;
+    font-size : 20px;
+}
+
+.menu1{
+    padding : 15px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu2{
+    padding : 15px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu2hover{
+    padding : 15px 15px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(187, 187, 187, 0.50);
+}
+
+.menu1:hover{
+    background-color: #ffc3c3;
+}
+
+.menu2:hover{
+    background-color:#BBBBBB;
+}
+
+.menu2hover:hover{
+    background-color:#BBBBBB;
+}
+
+a:hover{
+    font-size: 30px;
+    color:#535353;
+}
+
+/* Products */
+
+.poster{
+    border-radius : 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.arrow:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.product-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.all-product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FFEAEA;
+}
+
+.category{
+    text-align: center;
+}

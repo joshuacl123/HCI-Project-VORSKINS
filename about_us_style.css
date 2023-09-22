@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Header */
+
+.judul{
+    background-color: #FFF4F4;
+    text-align: center;
+    padding: 40px 30px 20px;
+}
+
+.nama{
+    color:black;
+    font-size: 60px;
+}
+
+a{
+    color:
+    #777777;
+    font-size : 20px;
+}
+
+.nav2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(214, 214, 214, 0.75);
+    /*padding: 50px 50px;*/
+}
+
+.menu2{
+    padding : 15px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu2hover{
+    padding : 15px 15px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(187, 187, 187, 0.50);
+}
+
+.menu1:hover{
+    background-color: #ffc3c3;
+}
+
+.menu2:hover{
+    background-color:#BBBBBB;
+}
+
+.menu2hover:hover{
+    background-color:#BBBBBB;
+}
+
+a:hover{
+    font-size: 30px;
+    color:#535353;
+}
+
+/* About Us */
+
+.about{
+    font-family: 'Lora';
+}
+
+.story{
+    font-family: 'Lora';
+}
+
+.our{
+    font-family: 'Lora';
+}
+
+.lorem{
+    font-family: 'Lora';
+}
+
+.vision{
+    font-family: 'Lora';
+}
+
+.visiondesc{
+    font-family: 'Lora';
+}
+
+.mission{
+    font-family: 'Lora';
+}
+
+.missiondesc{
+    font-family: 'Lora';
+}
+
+.text1{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.text2{
+    text-align: center;
+    font-family: 'Lora';
+}
+
+.textcontent{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lora';
+}
+
+.parts{
+    background-color: white;
+    padding-left: 114px;
+    padding-right: 114px;
+}
+.outer{
+    background-color: #FFEAEA;
+    padding-left: 114px;
+    padding-right: 114px;
+}

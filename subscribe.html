@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribtion</title>
+    <link rel="stylesheet" href="subscribe_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lora&family=Monoton&family=Mr+Dafoe&family=Poppins:wght@200;300;400;600;700&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="judul">
+            <h1 class="nama">V O R S K I N S</h1>
+            <br>
+        </div>
+        <nav class="nav2">
+            <div class="menu2">
+                <a href="./home.html">HOME</a>
+            </div>
+            <div class="menu2">
+                <a href="./about_us.html">ABOUT US</a>
+            </div>
+            <div class="menu2">
+                <a href="./product.html">PRODUCTS</a>
+            </div>
+            <div class="menu2">
+                <a href="./promotion.html">PROMOTION</a>
+            </div>
+            <div class="menu2hover">
+                <a href="./subscribe.html">SUBSCRIBTION</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="outer">
+    <div class="parts">
+        <br><br>
+        <section>
+            <div class="card">
+                <div class="left">
+                    <h2 class="subs">Subscribe To Our Newsletter</h2>
+                    <h6 class="we will">We will notify you for our newest launch 
+                        and other promotions</h6>
+                </div>
+                <div class="container">
+                    <form action="./home.html" name="register-form" onsubmit="return validateform()">
+                    Full Name
+                    <input type="text" name="name" placeholder="Name" id="name-txt">
+                    Email Address
+                    <input type="email" name="email" placeholder="Email" id="email-txt">
+                    Phone Number
+                    <input type="tel" name="phone" placeholder="+62" id="phone-txt">
+                    Preferences
+                    <select name="" id="preferences-txt">
+                        <option value="">Select Option</option>
+                        <option value="makeup">Make Up</option>
+                        <option value="skincare">Skin Care</option>
+                        <option value="bathbodycare">Bath & Body Care</option>
+                    </select>
+                    <div class="check">
+                        <input type="checkbox" name="" id="checkbox-txt">
+                        I agree to receive e-mails form your company and your terms and conditions.
+                    </div>
+                    <input type="submit" value="Submit">
+                    </form>
+                    <div id="error-msg"></div>
+                </div>
+                <script src="./script.js"></script> 
+            </div>
+        </section>
+        <br><br>
+
+    </div>
+    </div>
+</body>
+</html>
